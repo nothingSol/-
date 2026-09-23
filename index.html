@@ -255,7 +255,7 @@
 
   <section>
     <div class="eyebrow">contract</div>
-    <div class="contract"><span class="addr">not deployed yet — check back for nothing</span></div>
+    <div class="contract"><span class="addr">FWeFbmGoNFfe2pTsuRjYsjgQ7inUtkchVwgfavUipump</span></div>
   </section>
 
 </div>
@@ -269,12 +269,12 @@
 <script>
   // ── PASTE YOUR CONTRACT ADDRESS BELOW ONCE DEPLOYED ──
   // Leave as "" to keep showing the null placeholder stats.
-  const CONTRACT_ADDRESS = "";
+  const CONTRACT_ADDRESS = "FWeFbmGoNFfe2pTsuRjYsjgQ7inUtkchVwgfavUipump";
   // ──────────────────────────────────────────────────────
 
   if (CONTRACT_ADDRESS.trim() !== "") {
     const chain = "solana"; // change if you deploy elsewhere
-    const src = `https://dexscreener.com/${chain}/${CONTRACT_ADDRESS.trim()}?embed=1&theme=dark&trades=0&info=0`;
+    const src = `https://dexscreener.com/${chain}/${FWeFbmGoNFfe2pTsuRjYsjgQ7inUtkchVwgfavUipump.trim()}?embed=1&theme=dark&trades=0&info=0`;
     document.getElementById("chartFrame").src = src;
     document.getElementById("chartEmbed").style.display = "block";
     document.getElementById("statsFallback").style.display = "none";
